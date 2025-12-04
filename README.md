@@ -1,6 +1,6 @@
 # Scoop Bucket for duobolt
 
-Fast duplicate file finder using BLAKE3 hashing.
+Fast duplicate file finder using BLAKE3 hashing (Rust CLI).
 
 ## Installation
 
@@ -12,10 +12,11 @@ scoop install duobolt
 ## Usage
 
 ```powershell
+duobolt-cli <directory...> [options]
+duobolt-cli C:\Users\you\Documents --ignore-system-files --output=json
 duobolt-cli --help
-duobolt-cli scan C:\path\to\folder
 ```
 
 ## Documentation
 
-https://duobolt.app/docs/
+https://duobolt.app/cli-usage/
