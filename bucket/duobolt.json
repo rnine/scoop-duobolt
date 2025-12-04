@@ -1,16 +1,16 @@
 {
-    "version": "0.3.85",
+    "version": "0.3.86",
     "description": "Fast duplicate file finder using BLAKE3 hashing",
     "homepage": "https://duobolt.app",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.duobolt.app/windows/cli/x86_64/duobolt-cli-0.3.85.zip",
-            "hash": "44a93163f8359d87569e56aacb8497a95e0c3816f49cfe9558b28950e6092c04"
+            "url": "https://downloads.duobolt.app/windows/cli/x86_64/duobolt-cli-0.3.86.zip",
+            "hash": "31ef0e16282845a4e1d43774d3468154f30cfe5e7c44f6daa9628402e6e588c8"
         },
         "arm64": {
-            "url": "https://downloads.duobolt.app/windows/cli/aarch64/duobolt-cli-0.3.85.zip",
-            "hash": "b76a1c64c5fe1297bc0f919994f3d4e6e0cf850a339241be9d6511e4b9cf90ea"
+            "url": "https://downloads.duobolt.app/windows/cli/aarch64/duobolt-cli-0.3.86.zip",
+            "hash": "6378616a36e81ddef7f73ddd246908a30f0a258afcff9f5b650c22f2074d8af4"
         }
     },
     "bin": "duobolt-cli.exe",
@@ -29,10 +29,11 @@
         }
     },
     "notes": [
-        "Documentation: https://duobolt.app/docs/",
+        "CLI usage:",
+        "  duobolt-cli <directory...> [options]",
+        "  duobolt-cli C:\\Users\\you\\Documents --ignore-system-files --output=json",
+        "  duobolt-cli --help",
         "",
-        "Usage:",
-        "  duobolt-cli scan C:\\path\\to\\folder",
-        "  duobolt-cli --help"
+        "Docs: https://duobolt.app/docs/"
     ]
 }
