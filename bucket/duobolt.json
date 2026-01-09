@@ -1,16 +1,16 @@
 {
-    "version": "0.3.132",
+    "version": "0.3.133",
     "description": "Fast duplicate file finder using BLAKE3 hashing",
     "homepage": "https://duobolt.app",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.duobolt.app/windows/cli/x86_64/duobolt-cli-0.3.132.zip",
-            "hash": "2043ada7eaae41b3a60c65f593b3c3c14289ae51bb3620ac39384cf2f0d528d1"
+            "url": "https://downloads.duobolt.app/windows/cli/x86_64/duobolt-cli-0.3.133.zip",
+            "hash": "e55de25b85e6ba9e3fa144eaabd890038f4bd43d6a02d204bf4ba02fa406d8f9"
         },
         "arm64": {
-            "url": "https://downloads.duobolt.app/windows/cli/aarch64/duobolt-cli-0.3.132.zip",
-            "hash": "aa77f386c0edeb6aa7b965d1f4765bd304490b5db3af468b95a5c01ea8fbbbd2"
+            "url": "https://downloads.duobolt.app/windows/cli/aarch64/duobolt-cli-0.3.133.zip",
+            "hash": "040b2041674c1e9a46a399db04cf904e22181d16cd4d711c2f92f61c9b75a8c8"
         }
     },
     "bin": "duobolt-cli.exe",
